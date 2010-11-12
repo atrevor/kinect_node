@@ -1,0 +1,5 @@
+libusb-1.0-dev:
+  ubuntu: libusb-1.0-0-dev
+libusb-1.0:
+  ubuntu: libusb-1.0-0
+

@@ -1,0 +1,7 @@
+<launch>
+	<node name="kinect_node" pkg="kinect_node" type="kinect_node" output="screen">
+	</node>
+	
+	<node name="tf_FRAMEID_LASER" pkg="tf" type="static_transform_publisher" args="0.0 0.0 0.0 0.0 0.0 0 /kinect_base /kinect_head 100" respawn="false" output="screen"/>
+
+</launch>
